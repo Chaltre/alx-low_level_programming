@@ -1,13 +1,15 @@
-#include <stdio.h>
+#include <main.h>
 
 /**   
  * main - print the string in the put function 
  *
- * Description: using the main function     
+ * Description: using the main function
+ * this prints _putchar followed by a newline
+ * Return: 0     
 */
 int main(void)
 {
-	printf("_putchar,\n");
+	_putchar("_putchar,\n");
 	return (0);
 }
 
