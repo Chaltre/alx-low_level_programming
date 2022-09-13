@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**   
  * main - print the string in the put function 
