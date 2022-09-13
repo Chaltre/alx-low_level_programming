@@ -2,9 +2,8 @@
 
 /**   
  * main - print the string in the put function 
- *
  * Description: using the main function
- * this prints _putchar followed by a newline
+ * this prints _putchar followed by a new line
  * Return: 0     
 */
 int main(void)
