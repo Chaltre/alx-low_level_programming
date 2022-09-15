@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*more_numbers - nmbr fct
- *Return: no return
+ * more_numbers - nmbr fct
+ * Return: no return
  */
 
 void more_numbers(void)
