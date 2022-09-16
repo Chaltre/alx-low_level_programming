@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * print_triangle - entry point
@@ -10,7 +10,7 @@
 void print_triangle(int size)
 {
 	int hght, base;
-	
+
 	if (size <= 0)
 		_putchar('\n');
 	else
@@ -28,4 +28,3 @@ void print_triangle(int size)
 		}
 	}
 }
- 
