@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to - writing a function that takes int as a parameter
+ * reset_to_98 - writing a function that takes int as a parameter
  * @n: update the value it points to 98
  * Return: 0
  */
