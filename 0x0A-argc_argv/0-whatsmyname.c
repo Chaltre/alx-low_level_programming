@@ -2,7 +2,7 @@
 
 /**
  * main - print the name of the file followed by a new line
- * @argc - print the name of the file followed by a new line
+ * @argc: print the name of the file followed by a new line
  * @argv: arguments passed to main as an array of strings
  * Return: 0
  */
