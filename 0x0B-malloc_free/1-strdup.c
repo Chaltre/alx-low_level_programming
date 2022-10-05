@@ -9,17 +9,25 @@
  */
 char *_strdup(char *str)
 {
-	char *sd;
-	unsigned int size = 0, i;
+	char *cpy;
+	int index, len;
 
 	if (str == NULL)
 		return (NULL);
-	for (i = 0; str[i] != '\0'; i++)
-		size++;
-	if (sd == NULL)
+
+	for (index = 0; str[index]; index++)
+		len++;
+	cpy = malloc(sizeof(char) * (len + 1));
+
+	if (cpy == NULL)
 		return (NULL);
-	for (i = 0; i < size; i++)
-		sd[i] = str[i];
-	sd[size] = '\0';
-	return (sd);
+
+	for (index = 0; str[index]; index++)
+	{
+		cpy[index] = str[index];
+	}
+
+	cpy[len] = '\0';
+
+	return (cpy);
 }
