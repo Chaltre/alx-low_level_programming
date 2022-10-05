@@ -9,10 +9,10 @@
 char *argstostr(int ac, char **av)
 {
 	int i, j, k, size;
-	char *arg
+	char *arg;
 
 	size = 0;
-	k=0;
+	k = 0;
 	if (ac == 0 || av == NULL)
 		return (NULL);
 	i = 0;
