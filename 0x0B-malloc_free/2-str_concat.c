@@ -4,12 +4,12 @@
  * str_concat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
- * @s2: string 2
+ * Return: char pointer
  */
 char *str_concat(char *s1, char *s2)
 {
 	unsigned int i = 0, j, size = 0;
-	char *str;
+	char *str_concat;
 
 	if (s1 != NULL)
 		for (i = 0; s1[i] != '\0'; i++)
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 		for (j = 0; s2[j] != '\0'; j++)
 		{
 			str[i] = s2[j];
-			i++
+			i++;
 		}
 	str[size] = '\0';
 	return (str);
