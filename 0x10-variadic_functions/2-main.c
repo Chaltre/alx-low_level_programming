@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	 print_strings(", ", 2, "Jay", "Django");
-	 print_strings("", 3,"","belhaj","");
-	 return (0);
+    print_strings(", ", 2, "Jay", "Django");
+	print_strings("", 3,"","belhaj","");
+    return (0);
 }
